@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PALETA
+
+- #2B2D42
+- #8D99AE
+- #EDF2F4
+
+*/
+
+:root {
+    --A-color: #2B2D42;
+    --B-color: #8D99AE;
+    --C-color: #EDF2F4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
