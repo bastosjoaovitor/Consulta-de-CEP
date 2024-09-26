@@ -1,92 +1,104 @@
-# Consulta de CEP
+# CEP Search
 
-Este é um projeto de uma aplicação web que permite consultar informações detalhadas de um endereço a partir de um CEP (Código de Endereçamento Postal) brasileiro. O site foi desenvolvido com o objetivo de praticar e aplicar os conhecimentos adquiridos em **React**, **Tailwind CSS** e **APIs**.
+This is a web application project that allows you to search for detailed information about an address using a Brazilian CEP (Postal Code). The website was developed with the aim of practicing and applying the knowledge acquired in **React**, **Tailwind CSS** and **APIs**.
 
-## Acesse o Projeto
+## Access the Project
 
-Você pode acessar o site do projeto online através do link:
+You can access the project website online through the link:
 
-[Consulta de CEP]()
+[CEP Search](https://buscador-cep-bas.vercel.app/)
 
 ## Other Languages
 
-- [English version](README.md)
+- [Versão em Português](README_pt-BR.md)
 
-## Funcionalidades
+## Functionalities
 
-- Consulta de informações de um CEP válido.
-- Exibição de logradouro, bairro, localidade, UF, estado, região, código IBGE e DDD.
-- Validação do CEP informado pelo usuário.
-  
-## Tecnologias Utilizadas
+- Search for information about a valid CEP.
+- Display of street, neighborhood, location, state, region, IBGE code and area code.
+- Validation of the CEP entered by the user.
 
-- **React**: Biblioteca JavaScript para a construção da interface.
-- **Tailwind CSS**: Framework CSS para estilização responsiva.
-- **Vite**: Ferramenta de build rápida para o desenvolvimento front-end.
-- **HTML5**: Para a estruturação do conteúdo.
-- **CSS3**: Para estilização adicional.
-- **JavaScript**: Para a lógica da aplicação.
-- **API do ViaCEP**: Serviço para consulta de endereços a partir do CEP.
+## Technologies Used
 
-## Estrutura do Projeto
+- **React**: JavaScript library for building the interface.
+- **Tailwind CSS**: CSS framework for responsive styling.
+- **Vite**: Rapid build tool for front-end development.
+- **HTML5**: For structuring content.
+- **CSS3**: For additional styling.
+- **JavaScript**: For application logic.
+- **ViaCEP API**: Service for querying addresses based on zip codes.
+
+## Project Structure
 
 ```bash
 ├── public
-│   ├── index.html
+│   ├── vite.svg
 ├── src
 │   ├── assets
 │   │   ├── react.svg
 │   ├── components
-│   │   ├── Title.jsx
 │   │   ├── BuscaCep.jsx
-│   │   └── InfoCep.jsx
+│   │   ├── InfoCep.jsx
+│   │   └── Title.jsx
+│   ├── App.css
 │   ├── App.jsx
-│   └── index.css
-└── README.md
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── LICENSE
+├── README.md
+├── README_pt-BR.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
 ```
 
-## Como executar o projeto
+## How to run the project
 
-Siga os passos abaixo para rodar o projeto em sua máquina local:
+Follow the steps below to run the project on your local machine:
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
-    git clone https://github.com/seuusuario/consulta-cep.git
+    git clone https://github.com/bastosjoaovitor/Consulta-de-CEP.git
 ```
 
-2. Navegue até o diretório do projeto:
+2. Navigate to the project directory:
 
 ```bash
     cd consulta-cep
 ```
 
-3. Instale as dependências:
+3. Install the dependencies:
 
 ```bash
     npm install
 ```
 
-4. Execute o projeto:
+4. Run the project:
 
 ```bash
     npm run dev
 ```
 
-5. Ainda no terminal:
+5. Still in the terminal:
 
 ```bash
-    Clique O + Enter
+    Press O + Enter
 ```
 
-## Autor
+## Author
 
-Desenvolvido por João Vitor Bastos.
+Developed by João Vitor Bastos.
 
-## Contribuições
+## Contributions
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+Contributions are welcome! Feel free to open issues or send pull requests.
 
-## Licença
+## License
 
-Este projeto é de código aberto e está sob a [licença MIT](LICENSE).
+This project is open source and is under the [MIT license](LICENSE).

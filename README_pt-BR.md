@@ -6,7 +6,7 @@ Este é um projeto de uma aplicação web que permite consultar informações de
 
 Você pode acessar o site do projeto online através do link:
 
-[Consulta de CEP]()
+[Consulta de CEP](https://buscador-cep-bas.vercel.app/)
 
 ## Other Languages
 
@@ -32,17 +32,29 @@ Você pode acessar o site do projeto online através do link:
 
 ```bash
 ├── public
-│   ├── index.html
+│   ├── vite.svg
 ├── src
 │   ├── assets
 │   │   ├── react.svg
 │   ├── components
-│   │   ├── Title.jsx
 │   │   ├── BuscaCep.jsx
-│   │   └── InfoCep.jsx
+│   │   ├── InfoCep.jsx
+│   │   └── Title.jsx
+│   ├── App.css
 │   ├── App.jsx
-│   └── index.css
-└── README.md
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── LICENSE
+├── README.md
+├── README_pt-BR.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ## Como executar o projeto
@@ -52,7 +64,7 @@ Siga os passos abaixo para rodar o projeto em sua máquina local:
 1. Clone o repositório:
 
 ```bash
-    git clone https://github.com/seuusuario/consulta-cep.git
+    git clone https://github.com/bastosjoaovitor/Consulta-de-CEP.git
 ```
 
 2. Navegue até o diretório do projeto:
